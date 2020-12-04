@@ -11,13 +11,8 @@
     "pk": 2,
     "model": "products.category",
     "fields": {
-<<<<<<< HEAD
-      "name": "bed_bath",
-      "friendly_name": "Bed & Bath"
-=======
       "name": "femininity collection",
       "friendly_name": "Femininity & Collection"
->>>>>>> cc045714d31270b38b93f83a7fda56411626e0e5
     }
   }
  
