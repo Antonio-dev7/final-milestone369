@@ -49,16 +49,16 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: orange !important;
 }
 
 .border-black {
     border: 1px solid black !important;
 }
 
-.bg-black {
+/* .bg-black {
     background: #000 !important;
-}
+} */
 
 .overlay {              /* overlay must set behind content */
 	height: 100%;
