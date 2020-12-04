@@ -7,5 +7,6 @@ env.py
 __pycache__/
 *.py[cod]
 .env
+temp/
 
 
