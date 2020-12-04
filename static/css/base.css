@@ -56,9 +56,9 @@ body {
     border: 1px solid black !important;
 }
 
-/* .bg-black {
-    background: #000 !important;
-} */
+.bg-black {
+    background: #925B4F !important;
+}
 
 .overlay {              /* overlay must set behind content */
 	height: 100%;
