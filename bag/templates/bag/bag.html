@@ -85,16 +85,20 @@
                             </tr>
                         </table>
                     </div>
+                    <a class="update-link text-info"><small>Update</small></a>
+                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
                 {% else %}
-                    <p class="lead mb-5">Your bag is empty.</p>
+                    <p class="lead mb-5">Your art bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <span class="text-uppercase">Keep Shopping</span>
+                        <span class="text-uppercase">Keep Shopping
+                        </span>
                     </a>
                 {% endif %}
             </div>
         </div>
     </div>
 {% endblock %}
+
